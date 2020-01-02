@@ -4,6 +4,8 @@ var color2 = document.querySelector("#color2");
 var colorInputs = document.querySelectorAll(".input-color");
 var body = document.getElementById("gradient");
 var randomColorButton = document.querySelector("button");
+var copyText = document.getElementById(".copythis");
+
 
 window.onload = (event) =>{
     setGradient();
@@ -26,8 +28,18 @@ function randomColor() {
     return randColor;
 }
 
+function copythistext() {
+    var copyText = document.querySelector("textarea");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    alert("Copied: " + copyText.value);
+  }
+
+
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
 
 randomColorButton.addEventListener("click", setRandomColors);
+
