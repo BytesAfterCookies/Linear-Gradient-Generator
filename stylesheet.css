@@ -1,0 +1,76 @@
+body{
+    
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, lime, red);
+}
+
+.grid {
+    display: grid;
+    grid-column: 2;
+  grid-row: 2;
+   
+    }
+    
+
+
+h1{
+    font: 800 4vw 'Raleway', sans-serif;
+    color: #ececec;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+
+
+h2 {
+    font: 800 1.5vw 'Raleway', sans-serif;
+    color: #313131;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+
+
+h4{
+font: 700 1.7vw 'Raleway', sans-serif;
+color: #353535; 
+text-align: center;
+text-decoration: #313131 underline solid;
+text-align: center;
+margin: 5px;
+padding-top: 50px;;
+}
+
+textarea {
+width: 300px;
+height: 75px;
+background-color: #e9e9e9;
+font: 500 1em 'Raleway', san-serif;
+}
+
+button {
+padding: 10px;
+margin: 10px;
+width: 400px;
+height: 75px;
+font:800 2em 'Raleway', sans-serif;
+text-transform: uppercase;
+color: #424242;
+background: #cfcfcf;
+}
+
+input {
+padding: 0px;
+margin: 20px;
+width: 200px;
+height: 100px;
+}
